@@ -124,6 +124,12 @@
       }
     }
   }
+  .slideCounter.slideCounterBlue{
+    color: #172134;
+    &::after {
+      background: #172134;
+    }
+  }
 }
 .slideImg {
   width: 100%;

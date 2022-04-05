@@ -109,9 +109,9 @@ const Hero = ({slidesContent,children}) => {
            {slide.badge && <div className="badge">
               <em>{slide.badge}</em>
             </div>}
-            <h1>{slide.heading}</h1>
+            <h1 className={slide.text ==='blue' && "text_blue"}>{slide.heading}</h1>
          { slide.p && <div className="slideSubContent">
-              <p>
+              <p className={slide.text ==='blue' && "text_blue"}>
               {slide.p}
               </p>
               {
@@ -157,7 +157,7 @@ const Hero = ({slidesContent,children}) => {
     }
       
       </div>
-   { slidesContent.length > 1 &&  <div className="slideCounter">
+   { slidesContent.length > 1 &&  <div className={`slideCounter ${slidesContent[0].text && currentSlide === 1 &&  " slideCounterBlue"}`}>
         <div ref={slideCount} className="slideCounts">
           <span>
             <strong>{currentSlide}</strong>

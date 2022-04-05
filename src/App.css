@@ -16,7 +16,9 @@ ul {
 body{
   overflow-x: hidden;
 }
-
+.text_blue{
+  color: #172134;
+}
 button {
   cursor: pointer;
   border: none;

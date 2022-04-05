@@ -47,7 +47,8 @@ const Hero = () => {
       p:"Since 1999, Khansortium has stood the test of time by believing in integrity, fostering collaboration, and perfecting customer experience. The group inspires all its companies to enrich society by serving the local community and delivering authentic value.",
       heading: "Khansortium Group",
       btn: "Know More",
-      animatedBanner:true
+      animatedBanner:true,
+      text:'blue'
     },
     {
       img:barington_crescent_cricket_club,
