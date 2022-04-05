@@ -122,7 +122,7 @@ const PartnerApplication = () => {
                 <div className="JobApplicationContainer">
                 <form onSubmit={sendEmail}> 
                 <Typography style={{marginBottom:'2rem',textTransform:'uppercase'}} align={'center'} variant="h4" >
-                Be a Managing Partner
+                Be A Managing Partner 
                 </Typography>
          {    sent ?   <Typography variant='body1' style={{textAlign:'center',marginBottom:'1rem',color:'green',fontWeight:'bold'}}>
                          Your Application is Successfully Submitted Thank You.
@@ -139,7 +139,7 @@ const PartnerApplication = () => {
                     SelectProps={{
                         native: true,
                     }}
-                    helperText="Please select company you want to Be A Managing Partnerwith."
+                    helperText="Please select company you want to Be A Managing Partner  with."
                     >
                 {/* {companies.map((option) => (
                     <option key={opti } value={option.label}>

@@ -141,7 +141,7 @@ const Footer = () => {
             <li>
                 <strong>
                     <Link to='/partner_application'> 
-                        Be a Managing Partner
+                        Be A Managing Partner 
                     </Link>
                 </strong>
             </li>
